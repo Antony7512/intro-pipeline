@@ -16,4 +16,7 @@ pipeline {
       }
     }
   }
+  environment {
+    jdk9 = 'jdk9'
+  }
 }
