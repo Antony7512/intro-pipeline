@@ -8,7 +8,7 @@ pipeline {
             echo 'Hello World'
           }
         }
-        stage('error') {
+        stage('Hello World') {
           steps {
             sh 'java -version'
           }
